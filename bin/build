@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+docker build \
+  $(docker.build.context) \
+  $(docker.build.image)
