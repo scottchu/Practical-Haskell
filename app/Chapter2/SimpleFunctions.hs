@@ -1,4 +1,4 @@
 module Chapter2.SimpleFunctions where
 
     firstOrEmpty :: [[Char]] -> [Char]
-    firstOrEmpty lst = if not (null lst) then head lst else "empty"
+    firstOrEmpty xs = if not (null xs) then head xs else "empty"
